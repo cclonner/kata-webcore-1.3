@@ -25,8 +25,7 @@ body {
   margin: 0; }
 
 main {
-  width: 100vh;
-  display: block; }
+  width: 100vw; }
 
 h1 {
   font-size: 2em;
