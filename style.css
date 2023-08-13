@@ -108,7 +108,9 @@ body {
   margin-left: 16px;
   white-space: nowrap;
   align-items: center;
-  align-content: flex-end; }
+  align-content: flex-end; 
+  overflow-x: hidden;
+}
 
 .nav__button {
   text-decoration: none;
