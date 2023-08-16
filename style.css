@@ -82,8 +82,51 @@ body {
   }
 
 .header-burger {
-  margin-left: 16px; }
+  width: 40px;
+  height: 40px;
+  background-image: url('icons/burger.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 16px;
+ }
+.header-call {
+  width: 40px;
+  height: 40px;
+  background-image: url('icons/call.svg');
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+.header-chat {
+  width: 40px;
+  height: 40px;
+  background-image: url('icons/chat.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.header-profile {
+  width: 40px;
+  height: 40px;
+  background-image: url('icons/profile.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-repair {
+  width: 40px;
+  height: 40px;
+  background-image: url('icons/repair.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-checkstatus {
+  width: 40px;
+  height: 40px;
+  background-image: url('icons/checkstatus.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .nav__header {
   font-weight: bold;
   margin-left: 16px;
@@ -134,6 +177,15 @@ body {
 
 .nav__action-btn:hover {
   cursor: pointer; }
+
+.header__divider {
+  top: 26px;
+  width: 2px;
+  height: 32px;
+  border-radius: 1px;
+  background-color:#EAEAEA;
+  position: sticky;
+}
 
 .main-info {
   display: flex;
