@@ -22,10 +22,10 @@ html {
 }
 
 body {
-  margin: 0; }
+  margin: auto }
 
-main {
-  width: 100vw; }
+main {  
+  display: block; }
 
 h1 {
   font-size: 2em;
@@ -109,7 +109,7 @@ body {
     white-space: nowrap;
     align-items: center;
     align-content: flex-end;
-    
+
     scrollbar-width: none; 
     -ms-overflow-style: none; 
   }
@@ -189,6 +189,14 @@ body {
 
 
 @media screen and (min-width: 1120px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+  }
+
   .header {
     display: none;
   }
@@ -208,6 +216,9 @@ body {
   }
   .main-content {
     max-width: 1120px; 
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
   .nav__menu {
     flex-wrap: wrap;
