@@ -329,9 +329,7 @@ body {
   .main-info__button:hover {
     cursor: pointer; }
 
-.sidebar__footer{
-  display: block;
-}
+
 .social__button {
   margin-right: 16px; 
 }
