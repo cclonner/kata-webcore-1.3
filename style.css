@@ -64,6 +64,7 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 16px;
+  margin-bottom: 32px;
 }
 .header__actions{
   margin-left: auto;
@@ -212,19 +213,7 @@ body {
     position: relative;
   }
   
-  .nav__menu-modifier a:not(:first-child):hover:before {
-    content: "";
-    position: absolute;
-    left: -16px;
-    width: 4px;
-    height: 40px;
-    background-color: #41f6d7;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    top: -3px;
-  }
-  
-  .nav__menu-modifier a:first-child:before {
+  .nav__menu-modifier:before {
     content: "";
     position: absolute;
     left: 0px;
@@ -233,7 +222,6 @@ body {
     background-color: #41f6d7;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
-    top: 9px;
   }
 
 
@@ -250,13 +238,12 @@ body {
 }
 .nav__menu-modifier {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   white-space: nowrap;
-  align-items: self-start;
+  align-items: flex-start;
   font-size: 16px;
-  font-weight: 200;
-  color: #1B1C21;
-  ;
+  gap: 24px;
+  justify-content: space-between;
 }
 .nav-panel {
   margin-bottom: auto;
@@ -275,12 +262,19 @@ body {
 
 .nav__button-modifier {
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
   color: #1B1C21;
   font-size: 16px;
-  display: block;
-  padding: 16px 8px 16px 24px;}
-  
+  padding: 0 24px;
+  flex-wrap: nowrap;
+  position: relative;
+  line-height: 32px;
+  cursor: pointer;
+  transition: color 0.6s ease;
+}
+.nav__button-modifier::before{
+
+}
 
 .nav__button--active {
   background: #ffffff;
@@ -336,25 +330,30 @@ body {
 .footer__social{
   display: flex;
   align-items: center;
-  height: 87px; 
-  margin-left: 24px;
 }
-.communication {
-  display: block;
-  margin-left: 24px;
-}
-.contacts__item {
-  padding: 16px 0px;
-}
+
+
 .email {
   font-size: 16px;
   font-weight: 600;
 }
 .phone_number {
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
-
+.choose_lang{
+  font-size: 16px;
+  
+}
+.choosen_link--active{
+  font-size: 16px;
+  color: #7e7e82;
+}
+.choosen_link{
+  margin-right: 7px;
+  text-decoration: none;
+}
 @media screen and (min-width: 320px) {
   .main-info__text {
     height: 95px;
