@@ -344,15 +344,20 @@ body {
 }
 .choose_lang{
   font-size: 16px;
-  
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
 }
 .choosen_link--active{
+  
   font-size: 16px;
-  color: #7e7e82;
+  color: #7f7f83;
+  font-weight: 400;
 }
 .choosen_link{
-  margin-right: 7px;
   text-decoration: none;
+  margin-right: 7px;
+  font-weight: 600;
 }
 @media screen and (min-width: 320px) {
   .main-info__text {
