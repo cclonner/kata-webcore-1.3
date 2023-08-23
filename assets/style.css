@@ -270,9 +270,6 @@ body {
   cursor: pointer;
   transition: color 0.6s ease;
 }
-.nav__button-modifier::before{
-
-}
 
 .nav__button--active {
   background: #ffffff;
