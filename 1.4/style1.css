@@ -2,19 +2,19 @@
   font-family: 'TT Lakes';
   font-style: normal;
   font-weight: 400;
-  src: local("TT Lakes"), url(/assets/fonts/TTLakes-Regular.ttf) format("ttf"), url(/assets/fonts/TTLakes-Regular.woff) format("woff"); }
+  src: local("TT Lakes"), url(assets/fonts/TTLakes-Regular.ttf) format("ttf"), url(assets/fonts/TTLakes-Regular.woff) format("woff"); }
 
 @font-face {
   font-family: 'TT Lakes';
   font-style: normal;
   font-weight: 600;
-  src: local("TT Lakes"), url(/assets/fonts/TTLakes-Medium.ttf) format("ttf"), url(/assets/fonts/TTLakes-Medium.woff) format("woff"); }
+  src: local("TT Lakes"), url(assets/fonts/TTLakes-Medium.ttf) format("ttf"), url(assets/fonts/TTLakes-Medium.woff) format("woff"); }
 
 @font-face {
   font-family: 'TT Lakes';
   font-style: normal;
   font-weight: 800;
-  src: local("TT Lakes"), url(/assets/fonts/TTLakes-Bold.ttf) format("ttf"), url(/assets/fonts/TTLakes-Bold.woff) format("woff"); }
+  src: local("TT Lakes"), url(assets/fonts/TTLakes-Bold.ttf) format("ttf"), url(assets/fonts/TTLakes-Bold.woff) format("woff"); }
 
 
 html {
